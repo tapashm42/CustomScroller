@@ -1,0 +1,341 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		74FB62241E250FA500E598FE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 74FB62231E250FA500E598FE /* main.m */; };
+		74FB62271E250FA500E598FE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 74FB62261E250FA500E598FE /* AppDelegate.m */; };
+		74FB622A1E250FA500E598FE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74FB62291E250FA500E598FE /* ViewController.m */; };
+		74FB622D1E250FA500E598FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74FB622B1E250FA500E598FE /* Main.storyboard */; };
+		74FB622F1E250FA500E598FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74FB622E1E250FA500E598FE /* Assets.xcassets */; };
+		74FB62321E250FA500E598FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74FB62301E250FA500E598FE /* LaunchScreen.storyboard */; };
+		74FB623E1E25100000E598FE /* CustomButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = 74FB623C1E25100000E598FE /* CustomButton.xib */; };
+		74FB62431E25173700E598FE /* CustomScroll.m in Sources */ = {isa = PBXBuildFile; fileRef = 74FB62421E25173700E598FE /* CustomScroll.m */; };
+		74FB62461E251C6800E598FE /* CustomButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 74FB62451E251C6800E598FE /* CustomButton.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		74FB621F1E250FA500E598FE /* CustomScroller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomScroller.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		74FB62231E250FA500E598FE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		74FB62251E250FA500E598FE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		74FB62261E250FA500E598FE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		74FB62281E250FA500E598FE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		74FB62291E250FA500E598FE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		74FB622C1E250FA500E598FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		74FB622E1E250FA500E598FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		74FB62311E250FA500E598FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		74FB62331E250FA500E598FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74FB623C1E25100000E598FE /* CustomButton.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomButton.xib; sourceTree = "<group>"; };
+		74FB62401E2514D400E598FE /* CustomScroll.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomScroll.h; sourceTree = "<group>"; };
+		74FB62421E25173700E598FE /* CustomScroll.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomScroll.m; sourceTree = "<group>"; };
+		74FB62441E251C6800E598FE /* CustomButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomButton.h; sourceTree = "<group>"; };
+		74FB62451E251C6800E598FE /* CustomButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomButton.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		74FB621C1E250FA500E598FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		74FB62161E250FA500E598FE = {
+			isa = PBXGroup;
+			children = (
+				74FB62211E250FA500E598FE /* CustomScroller */,
+				74FB62201E250FA500E598FE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		74FB62201E250FA500E598FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				74FB621F1E250FA500E598FE /* CustomScroller.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		74FB62211E250FA500E598FE /* CustomScroller */ = {
+			isa = PBXGroup;
+			children = (
+				74FB62391E25100000E598FE /* Resources */,
+				74FB62251E250FA500E598FE /* AppDelegate.h */,
+				74FB62261E250FA500E598FE /* AppDelegate.m */,
+				74FB62281E250FA500E598FE /* ViewController.h */,
+				74FB62291E250FA500E598FE /* ViewController.m */,
+				74FB622B1E250FA500E598FE /* Main.storyboard */,
+				74FB622E1E250FA500E598FE /* Assets.xcassets */,
+				74FB62301E250FA500E598FE /* LaunchScreen.storyboard */,
+				74FB62331E250FA500E598FE /* Info.plist */,
+				74FB62221E250FA500E598FE /* Supporting Files */,
+			);
+			path = CustomScroller;
+			sourceTree = "<group>";
+		};
+		74FB62221E250FA500E598FE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				74FB62231E250FA500E598FE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		74FB62391E25100000E598FE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				74FB62441E251C6800E598FE /* CustomButton.h */,
+				74FB62451E251C6800E598FE /* CustomButton.m */,
+				74FB623C1E25100000E598FE /* CustomButton.xib */,
+				74FB62401E2514D400E598FE /* CustomScroll.h */,
+				74FB62421E25173700E598FE /* CustomScroll.m */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		74FB621E1E250FA500E598FE /* CustomScroller */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74FB62361E250FA500E598FE /* Build configuration list for PBXNativeTarget "CustomScroller" */;
+			buildPhases = (
+				74FB621B1E250FA500E598FE /* Sources */,
+				74FB621C1E250FA500E598FE /* Frameworks */,
+				74FB621D1E250FA500E598FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CustomScroller;
+			productName = CustomScroller;
+			productReference = 74FB621F1E250FA500E598FE /* CustomScroller.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		74FB62171E250FA500E598FE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "ITC Infotech";
+				TargetAttributes = {
+					74FB621E1E250FA500E598FE = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = SBXXHFN63C;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 74FB621A1E250FA500E598FE /* Build configuration list for PBXProject "CustomScroller" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 74FB62161E250FA500E598FE;
+			productRefGroup = 74FB62201E250FA500E598FE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				74FB621E1E250FA500E598FE /* CustomScroller */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		74FB621D1E250FA500E598FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74FB623E1E25100000E598FE /* CustomButton.xib in Resources */,
+				74FB62321E250FA500E598FE /* LaunchScreen.storyboard in Resources */,
+				74FB622F1E250FA500E598FE /* Assets.xcassets in Resources */,
+				74FB622D1E250FA500E598FE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		74FB621B1E250FA500E598FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74FB622A1E250FA500E598FE /* ViewController.m in Sources */,
+				74FB62461E251C6800E598FE /* CustomButton.m in Sources */,
+				74FB62271E250FA500E598FE /* AppDelegate.m in Sources */,
+				74FB62431E25173700E598FE /* CustomScroll.m in Sources */,
+				74FB62241E250FA500E598FE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		74FB622B1E250FA500E598FE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74FB622C1E250FA500E598FE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		74FB62301E250FA500E598FE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74FB62311E250FA500E598FE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		74FB62341E250FA500E598FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		74FB62351E250FA500E598FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		74FB62371E250FA500E598FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = SBXXHFN63C;
+				INFOPLIST_FILE = CustomScroller/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.itcinfotech.TapNite.CustomScroller;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		74FB62381E250FA500E598FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = SBXXHFN63C;
+				INFOPLIST_FILE = CustomScroller/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.itcinfotech.TapNite.CustomScroller;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		74FB621A1E250FA500E598FE /* Build configuration list for PBXProject "CustomScroller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74FB62341E250FA500E598FE /* Debug */,
+				74FB62351E250FA500E598FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74FB62361E250FA500E598FE /* Build configuration list for PBXNativeTarget "CustomScroller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74FB62371E250FA500E598FE /* Debug */,
+				74FB62381E250FA500E598FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 74FB62171E250FA500E598FE /* Project object */;
+}
